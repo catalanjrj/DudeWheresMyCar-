@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12769A8F1D00E8FF0058C7FF /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12769A8E1D00E8FF0058C7FF /* Location.swift */; };
 		129F96F61CEA1DFC003243EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129F96F51CEA1DFC003243EB /* AppDelegate.swift */; };
 		129F96F81CEA1DFC003243EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129F96F71CEA1DFC003243EB /* ViewController.swift */; };
 		129F96FB1CEA1DFC003243EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 129F96F91CEA1DFC003243EB /* Main.storyboard */; };
 		129F96FD1CEA1DFC003243EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 129F96FC1CEA1DFC003243EB /* Assets.xcassets */; };
 		129F97001CEA1DFC003243EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 129F96FE1CEA1DFC003243EB /* LaunchScreen.storyboard */; };
-		12D1FEAD1CF355AC0080B654 /* Dude,Here'sYourCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D1FEAC1CF355AC0080B654 /* Dude,Here'sYourCar.swift */; };
-		12D1FEAF1CF358DE0080B654 /* PopoverlocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D1FEAE1CF358DE0080B654 /* PopoverlocationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12769A8E1D00E8FF0058C7FF /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		129F96F21CEA1DFC003243EB /* Dude,WheresMyCar?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dude,WheresMyCar?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		129F96F51CEA1DFC003243EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		129F96F71CEA1DFC003243EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,8 +24,6 @@
 		129F96FC1CEA1DFC003243EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		129F96FF1CEA1DFC003243EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		129F97011CEA1DFC003243EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		12D1FEAC1CF355AC0080B654 /* Dude,Here'sYourCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dude,Here'sYourCar.swift"; sourceTree = "<group>"; };
-		12D1FEAE1CF358DE0080B654 /* PopoverlocationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverlocationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +58,7 @@
 			children = (
 				129F96F51CEA1DFC003243EB /* AppDelegate.swift */,
 				129F96F71CEA1DFC003243EB /* ViewController.swift */,
-				12D1FEAE1CF358DE0080B654 /* PopoverlocationView.swift */,
-				12D1FEAC1CF355AC0080B654 /* Dude,Here'sYourCar.swift */,
+				12769A8E1D00E8FF0058C7FF /* Location.swift */,
 				129F96F91CEA1DFC003243EB /* Main.storyboard */,
 				129F96FC1CEA1DFC003243EB /* Assets.xcassets */,
 				129F96FE1CEA1DFC003243EB /* LaunchScreen.storyboard */,
@@ -144,8 +141,7 @@
 			files = (
 				129F96F81CEA1DFC003243EB /* ViewController.swift in Sources */,
 				129F96F61CEA1DFC003243EB /* AppDelegate.swift in Sources */,
-				12D1FEAD1CF355AC0080B654 /* Dude,Here'sYourCar.swift in Sources */,
-				12D1FEAF1CF358DE0080B654 /* PopoverlocationView.swift in Sources */,
+				12769A8F1D00E8FF0058C7FF /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

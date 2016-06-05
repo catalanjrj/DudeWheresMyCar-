@@ -12,20 +12,13 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    let defaults = NSUserDefaults.standardUserDefaults()
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
-        
-        if let lastCarData = NSUserDefaults.standardUserDefaults().objectForKey("CarLocation") as? NSData {
-            let lastCarLocation = NSKeyedUnarchiver.unarchiveObjectWithData(lastCarData)
-            
-            if lastCarLocation!.name != "" {
-                print("Dude, I know where you parked!")
-            } else {
-                print("I have no idea what I'm doing!")
-            }
-        }
+       
         
         return true
         
